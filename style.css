@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.calculator{
+display:flex;
+width:250px;
+flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin:auto;
+   margin-top:5%;
+}
+
+.btn{
+    height:50px;
+    width:50px;
+    
+}
+
+.display{
+    width:200px;
+    height:45px;
+    margin-bottom: 5%;
+    flex: 1 1 100%;
+    text-align: right;
+    padding: 10%;
+    font-size: 1.3rem;
+}
